@@ -138,7 +138,7 @@ body {
   }
   
   .gopuram-container {
-    bottom: -20px;
+    bottom: 0;
   }
   
   .wedding-title {
@@ -284,7 +284,7 @@ body {
   }
   
   .ganapathi-icon {
-    width: 70px;
+    width: 120px;
     margin-bottom: 15px;
   }
   
