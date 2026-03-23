@@ -138,7 +138,7 @@ body {
   }
   
   .gopuram-container {
-    bottom: 0;
+    bottom: 50px;
   }
   
   .wedding-title {
@@ -270,15 +270,15 @@ body {
   }
   
   .invitation-heading {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     margin-bottom: 10px;
   }
   
   .invitation-text {
-    font-size: 0.75rem;
+    font-size: 0.95rem;
     padding: 0 10px;
-    max-width: 280px;
-    line-height: 1.4;
+    max-width: 300px;
+    line-height: 1.5;
     text-align: center;
     margin: 0 auto;
   }
@@ -289,13 +289,13 @@ body {
   }
   
   .blessing-text {
-    font-size: 0.75rem;
+    font-size: 0.95rem;
     padding: 0 20px;
     margin-bottom: 5px;
   }
   
   .parents-text {
-    font-size: 0.65rem;
+    font-size: 0.85rem;
     padding: 0 20px;
     margin-bottom: 25px;
   }
