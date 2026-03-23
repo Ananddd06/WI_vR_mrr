@@ -150,7 +150,7 @@ function App() {
           <div className="car-image">
             <img src="/car.webp" alt="Car" />
             <p className="venue-title">Venue</p>
-            <p className="venue-text">Erachakulam, Vellalar Mandapam</p>
+            <p className="venue-text">Erachakulam, Vellalar Thirumana Mandapam</p>
             <a 
               href="https://www.google.com/maps/place/Erachakulam+Vellalar+Marriage+Mahal/@8.227084,77.4276321,1133m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3b04f6e478d8f0cb:0x1b980e412110951f!8m2!3d8.227084!4d77.430207!16s%2Fg%2F11dxlc7k7m?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D"
               target="_blank"
