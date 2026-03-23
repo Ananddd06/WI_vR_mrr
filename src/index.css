@@ -1,0 +1,18 @@
+:root {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #333;
+  background: #fef9f3;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
