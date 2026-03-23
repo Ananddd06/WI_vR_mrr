@@ -275,11 +275,12 @@ body {
   }
   
   .invitation-text {
-    font-size: 0.85rem;
-    padding: 0 25px;
-    max-width: 100%;
+    font-size: 0.75rem;
+    padding: 0 10px;
+    max-width: 280px;
     line-height: 1.4;
     text-align: center;
+    margin: 0 auto;
   }
   
   .ganapathi-icon {
