@@ -22,6 +22,8 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  const gopuramOffset = Math.min(scrollY * 0.3, 200)
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % carouselImages.length)
@@ -38,7 +40,7 @@ function App() {
         
         <h1 className="wedding-title">Vineel @ Sriram<br/><span className="weds-text">weds</span><br/>Ramya</h1>
         
-        <div className="gopuram-container" style={{ transform: `translateY(${scrollY * 0.6}px)` }}>
+        <div className="gopuram-container" style={{ transform: `translateY(${gopuramOffset}px)` }}>
           <img src="/gopuram.png.webp" alt="Temple Gopuram" className="gopuram" />
         </div>
       </section>
@@ -119,7 +121,7 @@ function App() {
       </section>
 
       <section className="footer-section">
-        <img src="/Gemini_Generated_Image_sidtcxsidtcxsidt.png" alt="Decorative" className="footer-overlay-image" />
+        <img src="/Subject.png" alt="Decorative" className="footer-overlay-image" />
       </section>
     </div>
   )

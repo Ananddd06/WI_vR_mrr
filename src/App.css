@@ -21,7 +21,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 50;
+  z-index: 10;
   will-change: transform;
   display: flex;
   align-items: flex-end;
@@ -605,6 +605,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   padding: 60px 20px 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .marriage-overlay {
@@ -843,11 +845,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('/marraige.webp');
+  background-image: url('/savethedate.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 40px 20px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.footer-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/marraige.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  z-index: 1;
 }
 
 .footer-overlay-image {
@@ -855,6 +874,7 @@ body {
   width: 80%;
   height: auto;
   z-index: 10;
+  position: relative;
   filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.3));
   animation: pulse 3s ease-in-out infinite;
 }
