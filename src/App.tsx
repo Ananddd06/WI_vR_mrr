@@ -49,7 +49,7 @@ function App() {
         <div className="invitation-content">
           <img src="/ganapathu.webp" alt="Ganapathi" className="ganapathi-icon" />
           <p className="blessing-text">With the divine blessings of</p>
-          <p className="parents-text">Mr Ganeshan , Mrs Rajeshwari Ganeshan</p>
+          <p className="parents-text">Mr Ganesan , Mrs Rajeshwari </p>
           <h2 className="invitation-heading">Inviting</h2>
           <p className="invitation-text">We warmly invite you to join us in our wedding celebration</p>
         </div>
@@ -59,7 +59,7 @@ function App() {
         <div className="couple-content">
           <div className="groom-info">
             <p className="parent-label">Son of</p>
-            <p className="parent-name">Mr Ganeshan , Mrs Rajeshwari Ganeshan</p>
+            <p className="parent-name">Mr Ganesan , Mrs Rajeshwari</p>
           </div>
           
           <h2 className="couple-names">Vineel @ Sriram<br/>weds<br/>Ramya</h2>
